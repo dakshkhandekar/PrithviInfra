@@ -35656,7 +35656,7 @@ function AboutSection() {
               }
             ),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-[#e74c3c] font-semibold text-sm uppercase tracking-wider mt-1", children: "Founder & Managing Director" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground mt-4 leading-relaxed text-sm", children: "With over 25 years of experience in the construction sector, Mr. Jawake has led Prithvi Infrastructure from its inception to become a respected leader in the industry. His vision for quality construction and client satisfaction drives every project we undertake." })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground mt-4 leading-relaxed text-sm", children: "He is a highly experienced Civil Engineering professional with 20+ years of experience in construction management, project planning, structural engineering, site supervision, quality control, and infrastructure development. Throughout his career, he has successfully delivered numerous residential, commercial, and industrial projects, earning a reputation for excellence, reliability, and innovation. His commitment to quality, safety, and client satisfaction continues to drive the organization's growth and success." })
           ] })
         ] })
       }
@@ -35912,7 +35912,8 @@ function FooterSection() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-sm", children: "Phone" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "+91 98765 43210" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "+91 9970050961" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "+91 7020402462" })
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center md:justify-start", children: [
@@ -35925,23 +35926,10 @@ function FooterSection() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center md:justify-start", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-sm", children: "Address" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "123 Construction Lane, Mumbai, Maharashtra 400001" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-sm", children: "Business Partners" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "Our Happy Business Partners- Renergy Pvt. Ltd, Reliance, L&T, Ultratech, JSW, Onsure Pvt. Ltd, Reliance Bio Project, JNK Pvt. Ltd" })
         ] })
       ] })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-t border-white/20 pt-8", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-white/70 text-sm font-semibold uppercase tracking-wider mb-4", children: "Business Partners" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap items-center justify-center gap-6 md:gap-10", children: ["L&T", "Tata Projects", "Shapoorji Pallonji", "HCC"].map(
-        (partner) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "span",
-          {
-            className: "text-white/60 font-display font-bold text-sm md:text-base uppercase tracking-wider",
-            children: partner
-          },
-          partner
-        )
-      ) })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 text-center text-white/50 text-xs", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [

@@ -58,11 +58,15 @@ export default function AboutSection() {
                   Founder &amp; Managing Director
                 </p>
                 <p className="text-muted-foreground mt-4 leading-relaxed text-sm">
-                  With over 25 years of experience in the construction sector,
-                  Mr. Jawake has led Prithvi Infrastructure from its inception
-                  to become a respected leader in the industry. His vision for
-                  quality construction and client satisfaction drives every
-                  project we undertake.
+                  He is a highly experienced Civil Engineering professional with
+                  20+ years of experience in construction management, project
+                  planning, structural engineering, site supervision, quality
+                  control, and infrastructure development. Throughout his
+                  career, he has successfully delivered numerous residential,
+                  commercial, and industrial projects, earning a reputation for
+                  excellence, reliability, and innovation. His commitment to
+                  quality, safety, and client satisfaction continues to drive
+                  the organization's growth and success.
                 </p>
               </div>
             </div>

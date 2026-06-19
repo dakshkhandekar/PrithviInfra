@@ -23,7 +23,8 @@ export default function FooterSection() {
             <Phone className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-white font-semibold text-sm">Phone</p>
-              <p className="text-white/80 text-sm">+91 98765 43210</p>
+              <p className="text-white/80 text-sm">+91 9970050961</p>
+              <p className="text-white/80 text-sm">+91 7020402462</p>
             </div>
           </div>
           <div className="flex items-start gap-3 justify-center md:justify-start">
@@ -36,29 +37,15 @@ export default function FooterSection() {
           <div className="flex items-start gap-3 justify-center md:justify-start">
             <MapPin className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
             <div>
-              <p className="text-white font-semibold text-sm">Address</p>
+              <p className="text-white font-semibold text-sm">
+                Business Partners
+              </p>
               <p className="text-white/80 text-sm">
-                123 Construction Lane, Mumbai, Maharashtra 400001
+                Our Happy Business Partners- Renergy Pvt. Ltd, Reliance, L&T,
+                Ultratech, JSW, Onsure Pvt. Ltd, Reliance Bio Project, JNK Pvt.
+                Ltd
               </p>
             </div>
-          </div>
-        </div>
-
-        <div className="border-t border-white/20 pt-8">
-          <p className="text-center text-white/70 text-sm font-semibold uppercase tracking-wider mb-4">
-            Business Partners
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
-            {["L&T", "Tata Projects", "Shapoorji Pallonji", "HCC"].map(
-              (partner) => (
-                <span
-                  key={partner}
-                  className="text-white/60 font-display font-bold text-sm md:text-base uppercase tracking-wider"
-                >
-                  {partner}
-                </span>
-              ),
-            )}
           </div>
         </div>
 
