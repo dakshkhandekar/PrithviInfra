@@ -1,0 +1,23 @@
+{
+  "overview": "A bold single-page website for Prithvi Infrastructure, a construction company, featuring smooth-scroll navigation, project gallery lightbox, and contact form.",
+  "features": [
+    "Fixed black header with PI logo and red navigation links with smooth-scroll",
+    "Hero section with massive bold title and GST number",
+    "About section with company story and director bio",
+    "Services section with 3 white cards on dark background",
+    "Why Choose Us with cyan headings and photo columns",
+    "4-column project gallery with lightbox detail view",
+    "Contact form via Get in Touch button",
+    "Red footer with company name and contact info"
+  ],
+  "category": "landing-page",
+  "tags": [
+    "construction",
+    "company-website",
+    "single-page",
+    "scroll",
+    "portfolio",
+    "contact-form"
+  ],
+  "last_updated": "2026-06-19T15:41:48.829Z"
+}
