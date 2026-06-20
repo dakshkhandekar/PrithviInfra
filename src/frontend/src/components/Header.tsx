@@ -48,9 +48,11 @@ export default function Header() {
             className="flex items-center gap-2 bg-transparent border-0 p-0 cursor-pointer"
             data-ocid="header.logo_link"
           >
-            <span className="text-white font-display text-xl md:text-2xl font-bold tracking-tight">
-              <span className="text-[#e74c3c]">P</span>I
-            </span>
+            <img
+              src="/assets/pi-logo.png"
+              alt="Prithvi Infrastructure Logo"
+              className="w-10 h-10 md:w-12 md:h-12 object-cover rounded-sm"
+            />
           </button>
 
           <nav className="hidden md:flex items-center gap-8">

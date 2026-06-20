@@ -35640,9 +35640,9 @@ function AboutSection() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "img",
             {
-              src: "/assets/images/founder.png",
+              src: "/assets/images/founder-photo.png",
               alt: "MR. UDAY NATHURAM JAWAKE",
-              className: "w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-[#e74c3c] flex-shrink-0",
+              className: "w-36 h-48 md:w-44 md:h-56 rounded-md object-cover border-2 border-[#e74c3c] flex-shrink-0 shadow-md",
               "data-ocid": "about.founder_photo"
             }
           ),
@@ -35768,7 +35768,7 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$7 = [
+const __iconNode$8 = [
   ["rect", { width: "8", height: "4", x: "8", y: "2", rx: "1", ry: "1", key: "tgr4d6" }],
   [
     "path",
@@ -35782,14 +35782,14 @@ const __iconNode$7 = [
   ["path", { d: "M8 11h.01", key: "1dfujw" }],
   ["path", { d: "M8 16h.01", key: "18s6g9" }]
 ];
-const ClipboardList = createLucideIcon("clipboard-list", __iconNode$7);
+const ClipboardList = createLucideIcon("clipboard-list", __iconNode$8);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$6 = [
+const __iconNode$7 = [
   ["path", { d: "m15 12-8.373 8.373a1 1 0 1 1-3-3L12 9", key: "eefl8a" }],
   ["path", { d: "m18 15 4-4", key: "16gjal" }],
   [
@@ -35800,7 +35800,27 @@ const __iconNode$6 = [
     }
   ]
 ];
-const Hammer = createLucideIcon("hammer", __iconNode$6);
+const Hammer = createLucideIcon("hammer", __iconNode$7);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$6 = [
+  ["path", { d: "m11 17 2 2a1 1 0 1 0 3-3", key: "efffak" }],
+  [
+    "path",
+    {
+      d: "m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4",
+      key: "9pr0kb"
+    }
+  ],
+  ["path", { d: "m21 3 1 11h-2", key: "1tisrp" }],
+  ["path", { d: "M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3", key: "1uvwmv" }],
+  ["path", { d: "M3 4h8", key: "1ep09j" }]
+];
+const Handshake = createLucideIcon("handshake", __iconNode$6);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -35907,7 +35927,14 @@ function FooterSection() {
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-3 text-white/80 font-mono text-sm", children: "GST No. 27AECPJ4784J2Z5" })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-4xl mx-auto mb-12", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto mb-12", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center md:justify-start", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-sm", children: "Address" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "At - Kuhire, Post-Pigonde, Tal - Pen, Dist - Raigad - 402106" })
+        ] })
+      ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center md:justify-start", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
@@ -35920,11 +35947,12 @@ function FooterSection() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(Mail, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-sm", children: "Email" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "info@prithviinfra.com" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "jawkeuday@gmail.com" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "prithviinfrastructure2010@gmail.com" })
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center md:justify-start", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Handshake, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-sm", children: "Business Partners" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "Our Happy Business Partners- Renergy Pvt. Ltd, Reliance, L&T, Ultratech, JSW, Onsure Pvt. Ltd, Reliance Bio Project, JNK Pvt. Ltd" })
@@ -35993,10 +36021,14 @@ function Header() {
               },
               className: "flex items-center gap-2 bg-transparent border-0 p-0 cursor-pointer",
               "data-ocid": "header.logo_link",
-              children: /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-white font-display text-xl md:text-2xl font-bold tracking-tight", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[#e74c3c]", children: "P" }),
-                "I"
-              ] })
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "img",
+                {
+                  src: "/assets/pi-logo.png",
+                  alt: "Prithvi Infrastructure Logo",
+                  className: "w-10 h-10 md:w-12 md:h-12 object-cover rounded-sm"
+                }
+              )
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "hidden md:flex items-center gap-8", children: navLinks.map((link) => /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -36278,12 +36310,12 @@ function ServicesSection() {
 }
 const reasons = [
   {
-    image: "/assets/images/image-019ee0b9-4a62-712b-85b1-07f3730fcd6e.png",
+    image: "/assets/images/image-019ee0b9-4b0a-741a-a794-d9aa94e38fe6.png",
     title: "Expert Team",
     description: "Our skilled professionals bring decades of hands-on experience and technical expertise to every project."
   },
   {
-    image: "/assets/images/image-019ee0b9-4b0a-741a-a794-d9aa94e38fe6.png",
+    image: "/assets/images/image-019ee0b9-4a62-712b-85b1-07f3730fcd6e.png",
     title: "Quality Materials",
     description: "We source only the finest materials, ensuring durability, safety, and long-lasting results."
   },

@@ -42,9 +42,9 @@ export default function AboutSection() {
           >
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
               <img
-                src="/assets/images/founder.png"
+                src="/assets/images/founder-photo.png"
                 alt="MR. UDAY NATHURAM JAWAKE"
-                className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-[#e74c3c] flex-shrink-0"
+                className="w-36 h-48 md:w-44 md:h-56 rounded-md object-cover border-2 border-[#e74c3c] flex-shrink-0 shadow-md"
                 data-ocid="about.founder_photo"
               />
               <div className="text-center sm:text-left">

@@ -2,13 +2,13 @@ import { motion } from "motion/react";
 
 const reasons = [
   {
-    image: "/assets/images/image-019ee0b9-4a62-712b-85b1-07f3730fcd6e.png",
+    image: "/assets/images/image-019ee0b9-4b0a-741a-a794-d9aa94e38fe6.png",
     title: "Expert Team",
     description:
       "Our skilled professionals bring decades of hands-on experience and technical expertise to every project.",
   },
   {
-    image: "/assets/images/image-019ee0b9-4b0a-741a-a794-d9aa94e38fe6.png",
+    image: "/assets/images/image-019ee0b9-4a62-712b-85b1-07f3730fcd6e.png",
     title: "Quality Materials",
     description:
       "We source only the finest materials, ensuring durability, safety, and long-lasting results.",

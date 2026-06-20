@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Handshake, Mail, MapPin, Phone } from "lucide-react";
 
 export default function FooterSection() {
   const year = new Date().getFullYear();
@@ -18,7 +18,16 @@ export default function FooterSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-4xl mx-auto mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto mb-12">
+          <div className="flex items-start gap-3 justify-center md:justify-start">
+            <MapPin className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
+            <div>
+              <p className="text-white font-semibold text-sm">Address</p>
+              <p className="text-white/80 text-sm">
+                At - Kuhire, Post-Pigonde, Tal - Pen, Dist - Raigad - 402106
+              </p>
+            </div>
+          </div>
           <div className="flex items-start gap-3 justify-center md:justify-start">
             <Phone className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
             <div>
@@ -31,11 +40,14 @@ export default function FooterSection() {
             <Mail className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-white font-semibold text-sm">Email</p>
-              <p className="text-white/80 text-sm">info@prithviinfra.com</p>
+              <p className="text-white/80 text-sm">jawkeuday@gmail.com</p>
+              <p className="text-white/80 text-sm">
+                prithviinfrastructure2010@gmail.com
+              </p>
             </div>
           </div>
           <div className="flex items-start gap-3 justify-center md:justify-start">
-            <MapPin className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
+            <Handshake className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-white font-semibold text-sm">
                 Business Partners
