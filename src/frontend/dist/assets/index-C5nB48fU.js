@@ -35655,7 +35655,7 @@ function AboutSection() {
                 children: "MR. UDAY NATHURAM JAWAKE"
               }
             ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-[#e74c3c] font-semibold text-sm uppercase tracking-wider mt-1", children: "Founder & Managing Director" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-[#e74c3c] font-semibold text-sm uppercase tracking-wider mt-1", children: "Founder & Proprietor" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground mt-4 leading-relaxed text-sm", children: "He is a highly experienced Civil Engineering professional with 20+ years of experience in construction management, project planning, structural engineering, site supervision, quality control, and infrastructure development. Throughout his career, he has successfully delivered numerous residential, commercial, and industrial projects, earning a reputation for excellence, reliability, and innovation. His commitment to quality, safety, and client satisfaction continues to drive the organization's growth and success." })
           ] })
         ] })

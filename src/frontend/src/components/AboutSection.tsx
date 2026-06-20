@@ -55,7 +55,7 @@ export default function AboutSection() {
                   MR. UDAY NATHURAM JAWAKE
                 </h3>
                 <p className="text-[#e74c3c] font-semibold text-sm uppercase tracking-wider mt-1">
-                  Founder &amp; Managing Director
+                  Founder &amp; Proprietor
                 </p>
                 <p className="text-muted-foreground mt-4 leading-relaxed text-sm">
                   He is a highly experienced Civil Engineering professional with
