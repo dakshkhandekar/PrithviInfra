@@ -35914,8 +35914,8 @@ const __iconNode = [
 ];
 const X = createLucideIcon("x", __iconNode);
 const partners = [
-  "Renergy Pvt. Ltd",
   "Reliance",
+  "Renergy Pvt. Ltd",
   "L&T",
   "Ultratech",
   "JSW",

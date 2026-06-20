@@ -1,8 +1,8 @@
 import { Handshake, Mail, MapPin, Phone } from "lucide-react";
 
 const partners = [
-  "Renergy Pvt. Ltd",
   "Reliance",
+  "Renergy Pvt. Ltd",
   "L&T",
   "Ultratech",
   "JSW",
