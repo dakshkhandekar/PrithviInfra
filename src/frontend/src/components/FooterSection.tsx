@@ -1,5 +1,16 @@
 import { Handshake, Mail, MapPin, Phone } from "lucide-react";
 
+const partners = [
+  "Renergy Pvt. Ltd",
+  "Reliance",
+  "L&T",
+  "Ultratech",
+  "JSW",
+  "Onsure Pvt. Ltd",
+  "Reliance Bio Project",
+  "JNK Pvt. Ltd",
+];
+
 export default function FooterSection() {
   const year = new Date().getFullYear();
 
@@ -18,7 +29,7 @@ export default function FooterSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-5xl mx-auto mb-12">
           <div className="flex items-start gap-3 justify-center md:justify-start">
             <MapPin className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
             <div>
@@ -46,22 +57,82 @@ export default function FooterSection() {
               </p>
             </div>
           </div>
-          <div className="flex items-start gap-3 justify-center md:justify-start">
-            <Handshake className="w-5 h-5 text-white mt-0.5 flex-shrink-0" />
-            <div>
-              <p className="text-white font-semibold text-sm">
-                Business Partners
-              </p>
-              <p className="text-white/80 text-sm">
-                Our Happy Business Partners- Renergy Pvt. Ltd, Reliance, L&T,
-                Ultratech, JSW, Onsure Pvt. Ltd, Reliance Bio Project, JNK Pvt.
-                Ltd
-              </p>
+        </div>
+
+        <div className="border-t border-white/20 pt-10 mb-10">
+          <div className="flex items-start gap-3 justify-center mb-8">
+            <Handshake className="w-6 h-6 text-white mt-0.5 flex-shrink-0" />
+            <p className="text-white font-semibold text-base tracking-wide">
+              Our Happy Business Partners
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-20">
+              {/* Column 1 */}
+              <div className="flex flex-row items-start justify-center">
+                {/* Diamond chain column */}
+                <div className="flex flex-col items-center">
+                  {partners.slice(0, 4).map((name, idx) => (
+                    <div key={name} className="flex flex-col items-center">
+                      {idx > 0 && <div className="w-px h-6 bg-white/40" />}
+                      <span
+                        className="w-2.5 h-2.5 bg-white rotate-45 flex-shrink-0 my-1"
+                        data-ocid={`footer.partner.item.${idx + 1}`}
+                      />
+                      {idx < 3 && <div className="w-px h-6 bg-white/40" />}
+                    </div>
+                  ))}
+                </div>
+                {/* Names column */}
+                <div className="flex flex-col ml-4">
+                  {partners.slice(0, 4).map((name) => (
+                    <div
+                      key={name}
+                      className="flex items-center"
+                      style={{ height: "52px" }}
+                    >
+                      <span className="text-white/90 text-sm flex-shrink-0 leading-tight">
+                        {name}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              {/* Column 2 */}
+              <div className="flex flex-row items-start justify-center">
+                {/* Diamond chain column */}
+                <div className="flex flex-col items-center">
+                  {partners.slice(4).map((name, idx) => (
+                    <div key={name} className="flex flex-col items-center">
+                      {idx > 0 && <div className="w-px h-6 bg-white/40" />}
+                      <span
+                        className="w-2.5 h-2.5 bg-white rotate-45 flex-shrink-0 my-1"
+                        data-ocid={`footer.partner.item.${idx + 5}`}
+                      />
+                      {idx < 3 && <div className="w-px h-6 bg-white/40" />}
+                    </div>
+                  ))}
+                </div>
+                {/* Names column */}
+                <div className="flex flex-col ml-4">
+                  {partners.slice(4).map((name) => (
+                    <div
+                      key={name}
+                      className="flex items-center"
+                      style={{ height: "52px" }}
+                    >
+                      <span className="text-white/90 text-sm flex-shrink-0 leading-tight">
+                        {name}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-10 text-center text-white/50 text-xs">
+        <div className="text-center text-white/50 text-xs">
           <p>&copy; {year} Prithvi Infrastructure. All rights reserved.</p>
           <p className="mt-1">
             Built with{" "}

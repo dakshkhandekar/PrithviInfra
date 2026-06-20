@@ -35913,6 +35913,16 @@ const __iconNode = [
   ["path", { d: "m6 6 12 12", key: "d8bk6v" }]
 ];
 const X = createLucideIcon("x", __iconNode);
+const partners = [
+  "Renergy Pvt. Ltd",
+  "Reliance",
+  "L&T",
+  "Ultratech",
+  "JSW",
+  "Onsure Pvt. Ltd",
+  "Reliance Bio Project",
+  "JNK Pvt. Ltd"
+];
 function FooterSection() {
   const year = (/* @__PURE__ */ new Date()).getFullYear();
   return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "py-16 md:py-20", style: { backgroundColor: "#e74c3c" }, children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 sm:px-6 lg:px-8", children: [
@@ -35927,7 +35937,7 @@ function FooterSection() {
       ),
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-3 text-white/80 font-mono text-sm", children: "GST No. 27AECPJ4784J2Z5" })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto mb-12", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-5xl mx-auto mb-12", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center md:justify-start", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
@@ -35950,16 +35960,61 @@ function FooterSection() {
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "jawkeuday@gmail.com" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "prithviinfrastructure2010@gmail.com" })
         ] })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center md:justify-start", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Handshake, { className: "w-5 h-5 text-white mt-0.5 flex-shrink-0" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-sm", children: "Business Partners" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white/80 text-sm", children: "Our Happy Business Partners- Renergy Pvt. Ltd, Reliance, L&T, Ultratech, JSW, Onsure Pvt. Ltd, Reliance Bio Project, JNK Pvt. Ltd" })
-        ] })
       ] })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 text-center text-white/50 text-xs", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "border-t border-white/20 pt-10 mb-10", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3 justify-center mb-8", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Handshake, { className: "w-6 h-6 text-white mt-0.5 flex-shrink-0" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-semibold text-base tracking-wide", children: "Our Happy Business Partners" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-x-20", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-row items-start justify-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col items-center", children: partners.slice(0, 4).map((name, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-center", children: [
+            idx > 0 && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-px h-6 bg-white/40" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "span",
+              {
+                className: "w-2.5 h-2.5 bg-white rotate-45 flex-shrink-0 my-1",
+                "data-ocid": `footer.partner.item.${idx + 1}`
+              }
+            ),
+            idx < 3 && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-px h-6 bg-white/40" })
+          ] }, name)) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col ml-4", children: partners.slice(0, 4).map((name) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "flex items-center",
+              style: { height: "52px" },
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white/90 text-sm flex-shrink-0 leading-tight", children: name })
+            },
+            name
+          )) })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-row items-start justify-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col items-center", children: partners.slice(4).map((name, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-center", children: [
+            idx > 0 && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-px h-6 bg-white/40" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "span",
+              {
+                className: "w-2.5 h-2.5 bg-white rotate-45 flex-shrink-0 my-1",
+                "data-ocid": `footer.partner.item.${idx + 5}`
+              }
+            ),
+            idx < 3 && /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-px h-6 bg-white/40" })
+          ] }, name)) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col ml-4", children: partners.slice(4).map((name) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "flex items-center",
+              style: { height: "52px" },
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white/90 text-sm flex-shrink-0 leading-tight", children: name })
+            },
+            name
+          )) })
+        ] })
+      ] }) })
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center text-white/50 text-xs", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
         "© ",
         year,
